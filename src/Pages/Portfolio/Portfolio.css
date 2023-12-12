@@ -1,0 +1,45 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 600px;
+  height: 350px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: #d7a202;;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: #EAB308;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: #fec721;
+}
+@media (max-width: 670px) {
+  .swiper {
+    width: 340px; /* Set the desired width for screens smaller than or equal to 670 pixels */
+  }
+}

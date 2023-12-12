@@ -1,0 +1,15 @@
+.col-span-6 .nav-drawer {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+    .hidden-sm {
+      display: none;
+    }
+    .col-span-6 {
+        grid-column: span 7; 
+      }
+      .col-span-6 .nav-drawer {
+        display: block;
+      }
+  }
